@@ -29,6 +29,14 @@
     padding: 10px 24px 10px 24px;
     }
 
+    /* ,,,,,transform,,,,,,, */
+    .first-section:hover .course-pic{
+        transform: scale(2) rotate(60deg);
+        transition: transform 5s ease-in;
+        
+    
+    }
+
 /* ,,,,,,,,content style,,,,,,,,,,,, */
 .course-title{
     display: grid;
@@ -44,6 +52,9 @@
    font-weight: 700;
    font-size: 64px;
    color: #ffffff;
+}
+#copa-F{
+    color: #E02C6D;
 }
 
 .course-logo{
@@ -179,4 +190,33 @@ footer{
 }
 .fa-twitter{
     color: #00acee;
+}
+
+
+/* ......media quary,,,,,,,,,,,, */
+
+/* ......For mobile device............. */
+
+@media only screen and (max-width:688px){
+    
+    .nav-title a{
+        float: none;
+        width: 100%;
+    }
+    .course-title{
+        width: 100%;
+        grid-template-columns: repeat(1. 1fr);
+    }
+    .highlights{
+        flex-direction: column;
+    }
+    .players, .highlights{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .last-section{
+        float: none;
+        width: 100%;
+        height: 100%;
+        
+    }
 }

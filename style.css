@@ -81,7 +81,8 @@ main{
     padding-left: 30px;
     border: 2px solid #ffffff;
     border-radius: 15px;
-    box-shadow: 10px 15px 10px 20px gainsboro;
+    box-shadow: 10px 10px 15px 10px #dcdde1,
+                -10px 10px 15px 10px #dcdde1;
     
                 
 }
@@ -96,6 +97,7 @@ img{
 /* ,,,,,,,third-highlights-part,,,,,,,,,,,,, */
 section{
     font-family: 'Poppins', sans-serif;
+    
 }
 .highlights{
     display: grid;
@@ -130,7 +132,8 @@ iframe{
     margin-top: 100px;
     margin-left: 100px;
     border-radius: 15px;
-    box-shadow: 10px 10px 12px 15px gainsboro;
+    box-shadow: 10px 10px 12px 12px #dcdde1,
+                -10px 10px 12px 12px #dcdde1;
 }
 hr{
     width: 80%;
@@ -140,4 +143,40 @@ hr{
     width: 600px;
     height: 400px;
     margin-left: 250px;
+}
+/* ..........Footer stylesheet............... */
+
+
+#last-pic{
+    width: 400px;
+    margin-left: 350px;
+}
+.font-logo{
+    margin-left: 450px;
+    margin-bottom: 30px;
+}
+a{
+    margin-left: 20px;
+}
+footer{
+    margin-left: 430px;
+    color: crimson;
+}
+.font-logo a i{
+    transition: all .3s linear;
+}
+.font-logo a:hover i{
+    transform: scale(3);
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: purple;
+}
+.fa-youtube{
+    color: #c4302b;
+}
+.fa-twitter{
+    color: #00acee;
 }
